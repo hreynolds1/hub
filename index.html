@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Hayden's Assignments</title>
     <link rel="stylesheet" href="style.css">
-    <div id="links" class="center">
-        <a href="http://hreynolds1.github.io/chequewriter" target="_blank">Cheque writer</a>
-        <br>
-        <a href="http://hreynolds1.github.io/hangman" target="_blank">Hangman</a>
-        <br>
-        <a href="http://hreynolds1.github.io/baconcipher" target="_blank">Bacon cipher</a>
-        <br>
-        <a href="http://hreynolds1.github.io/mathsolver" target="_blank">Math solver</a>
-        <br>
-        <a href="https://hreynolds1.github.io/golf" target="_blank">Golf</a>
-        <br>
-        <a href="https://www.kmart.com.au/product/yahtzee/101072" target="_blank">Yahtzee</a>
-    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <body>
+        <div id="topbanner">
+            <h1 class="center">Projects</h1>
+        </div>
+        <div id="links" class="center">
+            <a href="http://hreynolds1.github.io/chequewriter" target="_blank" class="dropshadow">Cheque writer</a>
+            <br>
+            <a href="http://hreynolds1.github.io/hangman" target="_blank" class="dropshadow">Hangman</a>
+            <br>
+            <a href="http://hreynolds1.github.io/baconcipher" target="_blank" class="dropshadow">Bacon cipher</a>
+            <br>
+            <a href="http://hreynolds1.github.io/mathsolver" target="_blank" class="dropshadow">Math solver</a>
+            <br>
+            <a href="https://hreynolds1.github.io/golf" target="_blank" class="dropshadow">Golf</a>
+            <br>
+            <a href="https://www.kmart.com.au/product/yahtzee/101072" class="dropshadow">Yahtzee</a>
+        </div>
+        <div id="evaluation">
+            <h1 style="margin-left: 10px;">Evaluation</h1>
+            <div class="question">
+                <h3 class="heading">What was the hardest problem you encountered that you were able to fix?</h3 class="heading">
+                <p class="answer">The hardest problem I encountered was being able to efficiently convert numbers into words for the cheque writer.</p>
+            </div>
+            <div class="question">
+                <h3 class="heading">Is your solution elegant/optimal/efficient?</h3> 
+                <p class="answer">I managed to find an efficient solution, although it probably isn't optimal. The solution was to use arrays for the ones place, teens, tens place and hundreds, then make a function to convert up to 100. Then I made a loop that broke the number up into chunks of 3, then converted each chunk to words using the function and added the place value (hundreds, thousands, millions, etc.) onto the end, and combined it all in a string.</p>
+            </div>
+            <div class="question">
+                <h3 class="heading">What was the hardest problem you encountered that you weren't able to solve?</h3 class="heading">
+                <p class="answer">The hardest problem that I wasn't able to solve was what the rules of Yahtzee actually are.</p>
+            </div>
+            <div class="question">
+                <h3 class="heading">What made this problem particularly difficult?</h3 class="heading">
+                <p class="answer">This problem was particularly difficult because the rules of Yahtzee are a bit convoluted and annoying to code into computer form.</p>
+            </div>
+            <div class="question">
+                <h3 class="heading">How do you think the problem should be solved?</h3>
+                <p class="answer">The problem should be solved by letting somebody who knows how to play Yahtzee do it.</p>
+            </div>
+        </div>
+    </body>
 </html>
